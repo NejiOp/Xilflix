@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "typescript-config/strict": "off",
+    "axe/language": [
+      "default",
+      {
+        "html-has-lang": "off"
+      }
+    ],
+    "compat-api/css": "off"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_chr <= 111",
+    "not chrome <= 111",
+    "not edge <= 111",
+    "not ios_saf <= 14.8",
+    "not opera <= 95",
+    "not samsung <= 20"
+  ]
+}
